@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="azuredemoFlow" doc:id="beb852b4-bfa7-4b95-9a9f-66e62fdaa509" >
 		<http:listener doc:name="Listener" doc:id="318b95d0-f0b6-4130-9830-ea40d15f84f7" config-ref="HTTP_Listener_config" path="/path1"/>
-		<set-payload value="#['2nd Message from application']" doc:name="Set Payload" doc:id="ae7c4b02-1a51-470e-9a6b-05e3b4230fc4" />
+		<set-payload value="#['3rd Message from application']" doc:name="Set Payload" doc:id="ae7c4b02-1a51-470e-9a6b-05e3b4230fc4" />
 	</flow>
 </mule>
